@@ -1,10 +1,10 @@
-# persistentvuex
-本地持久化存储vuex
+# vuex-persistent
+vuex本地持久化存储插件
 
 支持移动端多webview页面vuex共享
 
-[![NPM version](https://img.shields.io/npm/v/persistentvuex.svg)](https://www.npmjs.com/package/persistentvuex)
-[![NPM downloads](https://img.shields.io/npm/dm/persistentvuex.svg)](https://www.npmjs.com/package/persistentvuex)
+[![NPM version](https://img.shields.io/npm/v/vuex-persistent.svg)](https://www.npmjs.com/package/vuex-persistent)
+[![NPM downloads](https://img.shields.io/npm/dm/vuex-persistent.svg)](https://www.npmjs.com/package/vuex-persistent)
 
 ## 依赖
 
@@ -14,13 +14,13 @@
 ## 安装
 
 ```bash
-npm install --save persistentvuex
+npm install --save vuex-persistent
 ```
 
 ## 使用
 
 ```js
-import persistentVuex from 'persistentvuex'
+import persistentVuex from 'vuex-persistent'
 
 const store = new Vuex.Store({
   // ...
