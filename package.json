@@ -1,0 +1,42 @@
+{
+    "name": "persistentvuex",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/DOBEEE/persistentvuex.git"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    },
+    "lint-staged": {
+        "*.{js,jsx,vue}": [
+            "prettier --tab-width 4 --write",
+            "eslint --fix",
+            "git add"
+        ]
+    },
+    "author": "https://github.com/DOBEEE",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/DOBEEE/persistentvuex/issues"
+    },
+    "homepage": "https://github.com/DOBEEE/persistentvuex#readme",
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.16.0",
+        "eslint-plugin-vue": "^5.2.2",
+        "husky": "^2.2.0",
+        "lint-staged": "^8.1.6",
+        "prettier": "1.17.0"
+    },
+    "dependencies": {
+        "deepmerge": "^4.0.0"
+    }
+}
