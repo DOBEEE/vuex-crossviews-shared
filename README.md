@@ -34,7 +34,7 @@ const store = new Vuex.Store({
      if (mutation.type === 'example') {
         return true;
      }
-	 };
+   };
    ```
    唯一参数是mutation对象
 - `event <Object>`: 自定以事件方法，用来做发布和响应自定义事件. (default: **localstorage的原生监听事件，可能在ios上的UIWebView中失效**)
@@ -42,17 +42,17 @@ const store = new Vuex.Store({
    ```javascript
    //发布事件
    event.emit({
-      type: key,
-      data: state,
+        type: key,
+        data: state,
    });
    //取消事件
    event.off({
-			type: key,
-			handler: window._vuexhandle,
-	 });
+	type: key,
+	handler: window._vuexhandle,
+   });
    //注册事件
-	 event.on({
-			type: key,
-			handler: window._vuexhandle,
-	 });
+   event.on({
+	type: key,
+        handler: window._vuexhandle,
+   });
    ```
