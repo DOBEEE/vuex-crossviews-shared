@@ -3,6 +3,9 @@
 
 支持移动端多webview页面vuex共享
 
+[![NPM version](https://img.shields.io/npm/v/vuex-persistedstate.svg)](https://www.npmjs.com/package/persistentvuex)
+[![NPM downloads](https://img.shields.io/npm/dm/vuex-persistedstate.svg)](https://www.npmjs.com/package/persistentvuex)
+
 ## 依赖
 
 - [Vue.js](https://vuejs.org) (v2.0.0+)
