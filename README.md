@@ -12,7 +12,7 @@
 npm install --save persistentvuex
 ```
 
-##使用
+## 使用
 
 ```js
 import persistentVuex from 'persistentvuex'
@@ -23,8 +23,8 @@ const store = new Vuex.Store({
 })
 ```
 
-##API
-###`persistentVuex([options])`
+## API
+### `persistentVuex([options])`
 
 - `key <String>`: storage存储的key. (default: **h5_vuex**)
 - `paths <Array>`: 需要持久化存储的state数据.例：`['a.b.c', 'a.b.d']` (default: **[]**)
