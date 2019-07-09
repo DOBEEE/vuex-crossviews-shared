@@ -1,5 +1,6 @@
 # persistentvuex
 本地持久化存储vuex
+支持移动端多webview页面vux共享
 
 ## 依赖
 
