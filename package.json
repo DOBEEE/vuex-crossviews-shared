@@ -1,5 +1,5 @@
 {
-    "name": "persistentvuex",
+    "name": "vuex-crossviews-shared",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/DOBEEE/persistentvuex.git"
+        "url": "git+https://github.com/DOBEEE/vuex-crossviews-shared.git"
     },
     "husky": {
         "hooks": {
@@ -25,9 +25,9 @@
     "author": "https://github.com/DOBEEE",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/DOBEEE/persistentvuex/issues"
+        "url": "https://github.com/DOBEEE/vuex-crossviews-shared/issues"
     },
-    "homepage": "https://github.com/DOBEEE/persistentvuex#readme",
+    "homepage": "https://github.com/DOBEEE/vuex-crossviews-shared#readme",
     "devDependencies": {
         "babel-eslint": "^10.0.1",
         "eslint": "^5.16.0",
