@@ -1,5 +1,5 @@
 # vuex-crossviews-shared
-vuex本地持久化存储插件
+vuex跨窗口共享插件
 
 支持移动端多webview页面vuex共享
 
