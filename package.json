@@ -1,11 +1,10 @@
 {
     "name": "vuex-crossviews-shared",
-    "version": "1.1.4",
+    "version": "1.1.6",
     "description": "",
-    "main": "./index.js",
-    "module": "./index.js",
+    "main": "dist/index.js",
     "scripts": {
-        "build": "npx babel ./src --out-dir ./",
+        "build": "webpack --config webpack.config.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -18,7 +17,7 @@
         }
     },
     "lint-staged": {
-        "*.{js,jsx,vue}": [
+        "src/*.{js,jsx,vue}": [
             "prettier --tab-width 4 --write",
             "eslint --fix",
             "git add"
@@ -36,12 +35,15 @@
         "@babel/polyfill": "^7.4.4",
         "@babel/preset-env": "^7.5.5",
         "babel-eslint": "^10.0.1",
+        "babel-loader": "^8.0.6",
         "core-js": "^3.2.1",
         "eslint": "^5.16.0",
         "eslint-plugin-vue": "^5.2.2",
         "husky": "^2.2.0",
         "lint-staged": "^8.1.6",
-        "prettier": "1.17.0"
+        "prettier": "1.17.0",
+        "webpack": "^4.39.3",
+        "webpack-cli": "^3.3.7"
     },
     "dependencies": {
         "deepmerge": "^4.0.0"
